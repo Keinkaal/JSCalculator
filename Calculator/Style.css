@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.Pad {
+	font-family: 'Black Han Sans', sans-serif;
+	display:grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 12% 12% 12% 12% 12% 12% 12% 12% ;
+	width: 400px;
+	margin: auto;
+	grid-gap: 10px;
+	padding-upper: 15px;	
+}
+
+
+
+#total{
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+	padding: 0;
+	text-align: right;	
+}
+
+.case {
+	margin: 100px auto auto auto;
+	background-color:#333;
+
+	width: 500px;
+	padding: 30px 20px 20px 0px;
+	border-radius: 30px;
+}
+
+.Pad > div{
+	text-align: center;
+	background: #ccc;
+	padding: 10px;
+	font-size: 35px;
+	border:5px solid #000;
+	border-radius:20px;
+}
+
+#OpWindow {
+	width: 400px;
+	background: #0a5106;
+	margin: auto;
+	grid-row-start:1;
+	grid-row-end:2;
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.Clear {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.Button { 
+	background: #c00;
+}
+.Equal {
+	grid-row-start: 6;
+	grid-row-end: 7;
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
